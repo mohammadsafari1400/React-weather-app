@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.616);
+}
+.wrapper {
+  width: 350px;
+  height: 530px;
+  background-color: aqua;
+  margin: 20px auto;
+  padding-top: 25px;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.671),
+      rgba(0, 0, 0, 0.664)
+    ),
+    url("../public/images/weather.jpg") center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.wrapper input {
+  width: 60%;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  outline: none;
+  color: white;
+  border-bottom: 1px solid white;
+  position: relative;
+}
+.wrapper .btn-search {
+  all: unset;
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 6px 15px;
+  background-color: tomato;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.815);
+}
+.info {
+  width: 100%;
+  height: 100%;
+}
+.info .clouds {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.692);
+}
+.info .clouds .cloud {
+  display: flex;
+  flex-direction: column;
+}
+
+.info .clouds .cloud .temp {
+  position: relative;
+}
+.info .clouds .cloud .temp .temp-c {
+  margin: 10px 0;
+}
+.info .clouds .cloud .temp .temp-c span {
+  font-size: 80px;
+}
+.info .clouds .cloud .temp .temp-c i {
+  font-size: 35px;
+}
+.info .clouds .cloud .temp .wind {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.info .clouds .cloud .temp .wind i,
+.info .clouds .cloud .temp .humidity i {
+  margin-left: 7px;
+}
+.info .clouds .cloud .temp .humidity {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.info .clouds .cloud .location .country span {
+  font-size: 20px;
+}
+.info .clouds .cloud .location .marker {
+  margin: 15px 0;
+}
+.info .clouds .cloud .location h5 i {
+  margin-right: 7px;
+}
+.info .clouds .error {
+  font-size: 25px;
+  color: rgb(238, 101, 101);
+}
+.loading {
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 30px;
+}

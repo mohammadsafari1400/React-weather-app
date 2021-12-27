@@ -1,0 +1,41 @@
+{
+  "location": {
+    "name": "Tehran",
+    "region": "Tehran",
+    "country": "Iran",
+    "lat": 35.73,
+    "lon": 51.33,
+    "tz_id": "Asia/Tehran",
+    "localtime_epoch": 1640068943,
+    "localtime": "2021-12-21 10:12"
+  },
+  "current": {
+    "last_updated_epoch": 1640068200,
+    "last_updated": "2021-12-21 10:00",
+    "temp_c": 9.0,
+    "temp_f": 48.2,
+    "is_day": 1,
+    "condition": {
+      "text": "Mist",
+      "icon": "//cdn.weatherapi.com/weather/64x64/day/143.png",
+      "code": 1030
+    },
+    "wind_mph": 6.9,
+    "wind_kph": 11.2,
+    "wind_degree": 180,
+    "wind_dir": "S",
+    "pressure_mb": 1015.0,
+    "pressure_in": 29.97,
+    "precip_mm": 0.0,
+    "precip_in": 0.0,
+    "humidity": 62,
+    "cloud": 25,
+    "feelslike_c": 6.8,
+    "feelslike_f": 44.3,
+    "vis_km": 3.5,
+    "vis_miles": 2.0,
+    "uv": 3.0,
+    "gust_mph": 11.4,
+    "gust_kph": 18.4
+  }
+}
